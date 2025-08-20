@@ -1,5 +1,5 @@
 export async function handler(event, context) {
-  const API_KEY = process.env.TMDB_API_KEY; // stored in Netlify
+  const API_KEY = process.env.MY_SECRET_API_KEY; // stored in Netlify
   const BASE_URL = "https://api.themoviedb.org/3";
 
   try {
